@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: #fceeff;
+    color: #333;
+}
+
+header {
+    background: #ff74c6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.mensaje {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.frase {
+    font-size: 28px;
+    color: #ff0077;
+    margin: 15px 0;
+}
+
+button {
+    background: #ff0077;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff4f96;
+    transform: scale(1.05);
+}
+
+#extra {
+    text-align: center;
+    padding: 30px 20px;
+    background: #fff5fb;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#extra ul {
+    list-style: none;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#extra li {
+    margin-bottom: 8px;
+}
+
+.final {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #d10072;
+}
+
+.oculto {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #ff74c6;
+    color: white;
+    margin-top: 20px;
+}
